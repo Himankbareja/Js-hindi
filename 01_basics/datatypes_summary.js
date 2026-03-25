@@ -30,6 +30,31 @@ const myfunc = function(){
     console.log("Hello World");
 }
 
-    /*     Arrays  =>       object
-       Function  =>  function
-       Object  =>       object */
+/*  Arrays  =>       object
+    Function  =>  function
+    Object  =>       object 
+*/
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let myname = "hitesh"
+
+let myothername  = myname;
+myothername = "chai"
+
+console.log(myname)
+console.log(myothername)
+
+let user1 = {
+    email : "user1@gmail.com",
+    upi : "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "himank@gmail.com"
+
+console.log(user1.email)
+console.log(user2.email)

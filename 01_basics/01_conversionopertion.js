@@ -27,7 +27,7 @@ let stringnum = String(num)
 console.log(stringnum)
 console.log(typeof stringnum)
 
-//                  OPERTAIONS
+//                  OPERATIONS
 
 
 let value = 3;
@@ -38,7 +38,7 @@ console.log(2+2)
 console.log(2-2)
 console.log(2*2)
 console.log(2**3) // 2 power 3
-console.log(2/3)
+console.log(2/3)    // decimal
 console.log(2%3)
 
 let str1 = "hello"
