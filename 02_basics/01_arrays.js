@@ -35,5 +35,5 @@ console.log(new2)
 console.log("C ", arr)
 
 /* Differnce between slice and splice is that 
-splice includes the last index alement given 
+splice includes the last index element given 
 in input  and also remove those elements in original array*/
