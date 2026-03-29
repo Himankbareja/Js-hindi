@@ -31,3 +31,34 @@ function loginmsg(username = "Sam"){
 }
 
 console.log(loginmsg("Himank"))         // If username not written then by default take Sam
+
+function calccartprice(num1,...num){        // If only give num the print first element
+    return num                              // Therefore use ... -> rest operator
+}
+
+console.log(calccartprice(200,400,600));
+
+const user = {
+    username : "himank",
+    price : 199
+}
+
+function handleobj(obj){
+    console.log(`Username is ${obj.username} and price is ${obj.price}`)
+}
+
+// handleobj(user)
+handleobj({
+    username : "Sam",
+    price : 100
+})
+
+const arr = [200,400,100,600]
+
+function returnsecondvalue(num){
+    return num[1]
+}
+
+console.log(returnsecondvalue(arr))
+
+console.log(returnsecondvalue([800,700,300]))
